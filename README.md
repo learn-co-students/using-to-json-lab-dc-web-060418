@@ -13,15 +13,15 @@ previous lab has been included.
 
 ## Outline
 
-1. Replace using `ProductSerializer` with using `to_json` to serialize
+* 1. Replace using `ProductSerializer` with using `to_json` to serialize
    the `Product`. Only include the product `id`, `name`, `description`,
 `inventory` and `price` in the JSON response.
-2. Remove the old `products/:id/data` route and action and set
+* 2. Remove the old `products/:id/data` route and action and set
    `products#show` to render JSON or HTML depending on the format of the
 request.
-3. Modify the `show.html.erb` page code to properly request JSON from
+* 3. Modify the `show.html.erb` page code to properly request JSON from
    the `products/id` route.
-4. Make sure tests pass! Some will pass at the beginning. The trick is
+* 4. Make sure tests pass! Some will pass at the beginning. The trick is
    making sure they all *still* pass at the end!
 
 **Note:** If you do everything correctly, you won't have to change any
